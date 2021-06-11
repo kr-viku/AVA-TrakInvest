@@ -60,7 +60,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Service
+                    What We Do
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -73,7 +73,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Portfolio
+                    Our USP
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -86,7 +86,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Skill
+                    Who We Serve
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -99,7 +99,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Testimonial
+                    Satisfied Customers
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -112,7 +112,20 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Blog
+                    Pricing
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="faq"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    FAQ's
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -125,7 +138,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Contact
+                    Contact Us
                   </Link>
                 </li>
               </ul>

@@ -18,38 +18,38 @@ import Slider from 'react-slick';
         <div>
           <Slider {...settings} className="testimonial_slider_Two">
                 <div className="item">
-                    <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
+                    <p>Annie has ramped up quickly to become an indispensable member of our team. She's fast to respond, learns quickly, and adapts at lightning speed to the needs of our company. She's seamlessly integrated herself into our team and magically taken on lots of responsibilities, which has freed up our time to tackle other priorities that we were never quite able to get to before she came along.</p>
                     <div className="media">
                         <div className="author_img">
                             <img src={require('../../image/slider2.png')} alt=""/>
                         </div>
                         <div className="media-body">
-                            <h6>Alex Smith</h6>
-                            <span>Envato Customer</span>
+                            <h6>Sabrina Heng</h6>
+                            <span>CEO, Online4Toys</span>
                         </div>
                     </div>
                 </div>
                 <div className="item">
-                    <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
+                    <p>Hiring a VA from AVA is one of the best investments I have ever made. I've been very pleased with the results and am now able to spend a great deal of time working on the big picture while my assistant takes care of the details.</p>
                     <div className="media">
                         <div className="author_img">
                             <img src={require('../../image/our-coaches-2.jpg')} alt=""/>
                         </div>
                         <div className="media-body">
-                            <h6>Michael Bean</h6>
-                            <span>Graphic Designer</span>
+                            <h6>Jessica Leong</h6>
+                            <span>CEO, ProHealthFoods</span>
                         </div>
                     </div>
                 </div>
                 <div className="item">
-                    <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
+                    <p>My dedicated VA is one of the hardest working and most responsive individuals I have had the privilege to work with. And the larger AVA team is always available to jump in and support me when required. I don't know how I managed before this, thank you for helping organise my life!</p>
                     <div className="media">
                         <div className="author_img">
                             <img src={require('../../image/our-coaches-7.jpg')} alt=""/>
                         </div>
                         <div className="media-body">
-                            <h6>Edward Evans</h6>
-                            <span>Envato Customer</span>
+                            <h6>Sam Harris</h6>
+                            <span>CEO, Social Key</span>
                         </div>
                     </div>
                 </div>

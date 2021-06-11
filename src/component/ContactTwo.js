@@ -22,28 +22,28 @@ class ContactTwo extends Component {
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
                     <h6>Call Me Now</h6>
-                    <a href=".#">02934567845</a>
+                    <a href=".#">+65 94993991</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-chat"></i>
                   <div className="media-body">
                     <h6>Contact Me</h6>
-                    <a href=".#">john@gmail.com</a>
+                    <a href=".#">amarbedi86@gmail.com</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-pin"></i>
                   <div className="media-body">
                     <h6>Get Me Here</h6>
-                    <p>Z105 - London, UK</p>
+                    <p>Singapore</p>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-sound"></i>
                   <div className="media-body">
                     <h6>Listen To Me</h6>
-                    <a href=".#">john.com</a>
+                    <a href=".#">www.ava.work</a>
                   </div>
                 </div>
               </div>

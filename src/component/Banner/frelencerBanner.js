@@ -26,19 +26,20 @@ class frelencerBanner extends Component {
               <div className="frelencer_content">
                 <Reveal effect="fadeInUp" duration={500}>
                   <h2 className="t_color">
-                    Hey there!
-                    <br /> I'm Martin Solonick Independent{" "}
-                    <span>Frelencer</span>
+                    We save your time
+                    <br />
+                     {/* I'm Martin Solonick Independent{" "} */}
+                    <span>So you can work on what matters!</span>
                   </h2>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={700}>
                   <h4>
-                    <span>I create thousand off website</span>
+                    <span>Matching you with the top 1% Virtual Assistants so you can focus on achieving more</span>
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
                   <a href="./" className="theme_btn active">
-                    Hire me
+                   Try a Virtual Assistant now!
                   </a>
                 </Reveal>
               </div>

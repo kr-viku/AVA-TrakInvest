@@ -43,14 +43,14 @@ class PortfolioSlider extends Component {
         return(
             <section className="portfolio_slider_area" id="portfolio">
                 <div className="container">
-                    <SectionTitleTwo tCenter="text-center" stitle="My Portfolio" btitle="Some of my latest works."/>
+                    <SectionTitleTwo tCenter="text-center" stitle="Why Choose Us?" btitle="We match your needs."/>
                     <Slider {...settings} className="portfolio_slider">
                         <div className="p_item">
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/new1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Poluchoromatic Logo</h4></a>
-                                    <a href=".#">Branding Design</a>
+                                    <a href="./"><h4>Top Notch Quality</h4></a>
+                                    <a href=".#">We find and train only the best</a>
                                 </div>
                             </div>
                         </div>
@@ -58,8 +58,8 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Poluchoromatic Logo</h4></a>
-                                    <a href=".#">Logo Design</a>
+                                    <a href="./"><h4>Organised & Secure</h4></a>
+                                    <a href=".#">Background checks and secure password-sharing tools</a>
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,8 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio2.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Creative Design</h4></a>
-                                    <a href=".#">App Design</a>
+                                    <a href="./"><h4>No contractual commitments</h4></a>
+                                    <a href=".#">No long term contracts, billed per usage</a>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>John Portfolio Logo</h4></a>
-                                    <a href=".#">UI/UX Design</a>
+                                    <a href="./"><h4>Delegation made easy</h4></a>
+                                    <a href=".#">Custom-built tools with in built templates</a>
                                 </div>
                             </div>
                         </div>

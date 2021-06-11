@@ -7,11 +7,11 @@ class BlogTwo extends Component{
         return(
             <section className="blog_area_two" id="blog">
                 <div className="container">
-                    <SectionTitleTwo tCenter="text-center" stitle="Our Blog" btitle="News and Updates"/>
+                    <SectionTitleTwo tCenter="text-center" stitle="Pricing" btitle="No contracts. Only pay for what you use."/>
                     <Reveal effect="fadeInUp" duration={1000}>
                         <div className="row">
-                            <BlogTwoitems bTitle="Contrary to popular belief" bDetails="Suspendisse in mattis neque, sed accu- msan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam.." btnText="Read More" image="post-img1.jpg" Pdata="Jan 14"/>
-                            <BlogTwoitems bTitle="Behind the color" bDetails="Suspendisse in mattis neque, sed accu- msan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam.." btnText="Read More" image="post-img2.jpg" Pdata="Mar 30"/>
+                            <BlogTwoitems bHours="40 hours per week" bTitle="Enterpreneur Pack" bDetails="Dedicated assistant + Team Lead support" btnText="USD $750 monthly" image="post-img1.jpg" Pdata="Jan 14"/>
+                            <BlogTwoitems bHours="20 hours per week" bTitle="Starter Pack" bDetails="Dedicated assistant" btnText="USD $400 monthly" image="post-img2.jpg" Pdata="Mar 30"/>
                         </div>
                     </Reveal>
                 </div>

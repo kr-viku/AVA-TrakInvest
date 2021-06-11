@@ -46,13 +46,13 @@ class SkillTwo extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="skill_content_two">
-                                <SectionTitleTwo stitle="My Featured Skills" btitle="Some Interesting Facts About Me."/>
-                                <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
+                                <SectionTitleTwo stitle="Who We Serve?" btitle="Enabling thousands of entrepreneurs be more effective."/>
+                                <p>Our remote assistants have the top administrative skills and know all the best tools to get things done quickly. It's not just easier, it's cost effective too - saving you up to 90% compared to hiring an assistant full-time.</p>
                                 <div className="row">
-                                    <CounterItem col="col-md-6 s_item" CText='200' pdescription='Design Process'/>
-                                    <CounterItem col="col-md-6 s_item" CText='120' pdescription='UX Thinking'/>
-                                    <CounterItem col="col-md-6 s_item" CText='4' pdescription='Prototype'/>
-                                    <CounterItem col="col-md-6 s_item" CText='10' pdescription='Support'/>
+                                    <CounterItem col="col-md-6 s_item" CText='1,000+' pdescription='Pre Screened VA’s'/>
+                                    <CounterItem col="col-md-6 s_item" CText='50,000' pdescription='Hours saved'/>
+                                    <CounterItem col="col-md-6 s_item" CText='500' pdescription='Happy Entrepreneurs'/>
+                                    <CounterItem col="col-md-6 s_item" CText='10' pdescription='Product Partners'/>
                                 </div>
                             </div>
                         </div>
