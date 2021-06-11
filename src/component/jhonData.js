@@ -1,5 +1,5 @@
 const jhonData = {
-  name: "John Deo.",
+  name: "Amar Bedi",
   name2: "Richard Tea.",
   name3: "Alexa Johnson",
   role: "Visual Designer & Front-End Developer,",
@@ -25,6 +25,21 @@ const jhonData = {
       url: "http://www.pinterest.com",
       className: "social_pinterest",
     },
+    {
+      "name":"instagram",
+      "url":"https://www.instagram.com/trakinvest/",
+      "className":"social_instagram"
+    },
+    {
+        "name":"youtube",
+        "url":"https://www.youtube.com/channel/UCvMjDJLvCn1CtesHVITjjYg/featured",
+        "className":"social_youtube"
+    },
+    {
+      "name":"linkedin",
+      "url":"https://www.linkedin.com/company/trakinvest/",
+      "className":"social_linkedin"
+    }
   ],
   aboutme: "About Me",
   aboutdetails:
@@ -81,22 +96,22 @@ const jhonData = {
         {
           id: 1,
           icon: "icon_pin_alt",
-          text: "Address: Z105 - Tan Thinh, Thai Nguyen - Viet Nam",
+          text: "Singapore",
         },
         {
           id: 2,
           icon: "icon_phone",
-          text: "Phone: +1.900.3456.789",
+          text: "+65 94993991",
         },
         {
           id: 3,
           icon: "icon_mail",
-          text: "Email: yourname@somemail.com",
+          text: "amarbedi86@gmail.com",
         },
         {
           id: 4,
           icon: "icon_globe",
-          text: "Website: http://example.com",
+          text: "www.ava.work",
         },
       ],
     },

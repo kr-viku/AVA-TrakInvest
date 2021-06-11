@@ -4,10 +4,11 @@ import SectionTitleTwo from "../component/Banner/SectionTitleTwo";
 import Form from "./Form";
 class ContactTwo extends Component {
   render() {
-    let { secClass } = this.props;
+    let contactDetails  = this.props.jhonData.contact[0].menuItems;
+    // console.log( contactDetails)
     return (
       <section
-        className={`contact-area contact-area-two bg_color ${secClass}`}
+        className={`contact-area contact-area-two bg_color`}
         id="contacts"
       >
         <div className="container">
@@ -22,28 +23,28 @@ class ContactTwo extends Component {
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
                     <h6>Call Me Now</h6>
-                    <a href=".#">+65 94993991</a>
+                    <a href=".#">{contactDetails[1].text}</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-chat"></i>
                   <div className="media-body">
                     <h6>Contact Me</h6>
-                    <a href=".#">amarbedi86@gmail.com</a>
+                    <a href=".#">{contactDetails[2].text}</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-pin"></i>
                   <div className="media-body">
                     <h6>Get Me Here</h6>
-                    <p>Singapore</p>
+                    <p>{contactDetails[0].text}</p>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-sound"></i>
                   <div className="media-body">
                     <h6>Listen To Me</h6>
-                    <a href=".#">www.ava.work</a>
+                    <a href=".#">{contactDetails[3].text}</a>
                   </div>
                 </div>
               </div>

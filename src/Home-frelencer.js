@@ -20,7 +20,7 @@ export const Homefrelencer = () => (
     <SkillTwo/>
     <TestimonialTwo/>
     <BlogTwo/>
-    <Faq />
+    <Faq/>
     <ContactTwo jhonData={jhonData}/>
     <FooterTwo jhonData={jhonData}/>
   </div>
