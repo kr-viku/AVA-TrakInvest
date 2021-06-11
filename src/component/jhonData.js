@@ -7,7 +7,7 @@ const jhonData = {
   socialLinks: [
     {
       name: "Facebook",
-      url: "http://www.linkedin.com/",
+      url: "http://www.linkedin.com/kr-viku",
       className: "social_facebook",
     },
     {

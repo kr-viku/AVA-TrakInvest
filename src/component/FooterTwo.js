@@ -25,12 +25,12 @@ class FooterTwo extends Component {
             </div>
             <div className="col-sm-8 text-right">
               <h6>
-                Made with love by{" "}
-                <a href="https://themeforest.net/user/blazethemez">
-                  Blazethemez
+              Email :&nbsp; 
+                <a href="amarbedi86@gmail.com">
+                 amarbedi86@gmail.com
                 </a>
               </h6>
-              <p>© 2020 Blazethemez - All Rights Reserved</p>
+              <p>© 2015-2016 Ava. All Right Reserved.</p>
             </div>
           </div>
         </div>

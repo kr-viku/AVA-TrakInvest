@@ -5,7 +5,7 @@ import Reveal from 'react-reveal/Reveal/';
 class BlogTwo extends Component{
     render(){
         return(
-            <section className="blog_area_two" id="blog">
+            <section className="blog_area_two bg_color" id="blog">
                 <div className="container">
                     <SectionTitleTwo tCenter="text-center" stitle="Pricing" btitle="No contracts. Only pay for what you use."/>
                     <Reveal effect="fadeInUp" duration={1000}>
