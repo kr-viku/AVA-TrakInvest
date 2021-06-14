@@ -236,6 +236,8 @@ h6 {
 }
 
 .navbar .logo_h img {
+  width: 60px;
+  height: 60px;
   max-width: 100%;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
