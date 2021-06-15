@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SectionTitleTwo from "../component/Banner/SectionTitleTwo";
+import { Reveal } from "react-reveal/";
 import './ServiceTwo.css';
 class ServiceTwo extends Component {
   render() {
@@ -35,17 +36,19 @@ class ServiceTwo extends Component {
                       Sales Outreach
                     </button>
                     <button className="btn-serve">
-                      Email & Calendar
+                      Email &amp; Calendar
                     </button>
                     <button className="btn-serve">
                       Market Research
                     </button>
                   </div>
                 </div>
-                <div className="book-consulation">
-                  <a href="./" className="book-link">
-                   Book a consultation
+                <div className="book-btn-container frelencer_content">
+                <Reveal effect="fadeInUp" duration={900}>
+                  <a href="./" className="theme_btn active">
+                  Book a consultation
                   </a>
+                </Reveal>
                 </div>
               </div>
             </div>

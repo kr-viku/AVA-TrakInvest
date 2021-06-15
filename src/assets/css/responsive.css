@@ -408,6 +408,28 @@
   .error_text img {
     top: 29px;
   }
+  .modal-main{
+    min-width:calc(100vw - 16px);
+    margin: 8px auto;
+  }
+  /* .book-btn-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  } */
+}
+
+@media (max-width: 410px) {
+  .modal-title{
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  .card-logo-image img{
+    width: 95px;
+    height: 95px;
+  }
 }
 
 @media (min-width: 1020px) {
