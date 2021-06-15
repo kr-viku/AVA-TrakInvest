@@ -409,3 +409,24 @@
     top: 29px;
   }
 }
+
+@media (min-width: 1020px) {
+  .modal-card-container{
+    flex-direction: row;
+  }
+  .card-left-container{
+    padding: 0px 24px;
+  }
+  .card-right-container{
+    padding: 0px 24px;
+  }
+  .modal-title{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 24px;
+  }
+  .card-captions{
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
