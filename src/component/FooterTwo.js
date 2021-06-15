@@ -7,6 +7,9 @@ class FooterTwo extends Component {
     return (
       <section className={`footer-area-two ${className}`}>
         <div className="container">
+          {/* <div className="row footer-content">
+            <img loading="lazy" src={require("./../image/Ava_logo.png")} alt="footerImage" />
+          </div> */}
           <div className="row footer-content">
             <div className="col-sm-4">
               <Fade top cascade>
