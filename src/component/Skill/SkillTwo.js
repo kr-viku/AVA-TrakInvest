@@ -49,8 +49,8 @@ class SkillTwo extends Component {
                                 <SectionTitleTwo stitle="Who We Serve?" btitle="Enabling thousands of entrepreneurs be more effective."/>
                                 <p>Our remote assistants have the top administrative skills and know all the best tools to get things done quickly. It's not just easier, it's cost effective too - saving you up to 90% compared to hiring an assistant full-time.</p>
                                 <div className="row">
-                                    <CounterItem col="col-md-6 s_item" CText='1,000+' pdescription='Pre Screened VA’s'/>
-                                    <CounterItem col="col-md-6 s_item" CText='50,000' pdescription='Hours saved'/>
+                                    <CounterItem col="col-md-6 s_item" CText='1000' pdescription='Pre Screened VA’s'/>
+                                    <CounterItem col="col-md-6 s_item" CText='50000' pdescription='Hours saved'/>
                                     <CounterItem col="col-md-6 s_item" CText='500' pdescription='Happy Entrepreneurs'/>
                                     <CounterItem col="col-md-6 s_item" CText='10' pdescription='Product Partners'/>
                                 </div>

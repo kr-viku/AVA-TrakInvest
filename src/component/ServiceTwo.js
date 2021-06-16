@@ -27,7 +27,7 @@ class ServiceTwo extends Component {
                       ECommerce backend
                     </button>
                     <button className="btn-serve">
-                      Social Media
+                      Social Media Management
                     </button>
                     <button className="btn-serve">
                       Data Entry

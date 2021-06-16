@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-scroll";
 class FooterTwo extends Component {
   render() {
     let jhonData = this.props.jhonData;
@@ -28,14 +29,48 @@ class FooterTwo extends Component {
             </div>
             <div className="col-sm-8 text-right">
               <h6>
-              Email :&nbsp; 
+                Email :&nbsp;
                 <a href="amarbedi86@gmail.com">
-                 amarbedi86@gmail.com
+                  amarbedi86@gmail.com
                 </a>
               </h6>
               <p>© 2015-2016 Ava. All Right Reserved.</p>
             </div>
           </div>
+          {/* <div className="row">
+            <div className="col-sm-4">
+              <Fade top cascade>
+                <div className="footer-nav-container">
+                  <div>
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="faq"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    FAQ's
+                  </Link>
+                  </div>
+                  <div className="contact-us-container">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="contacts"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Contact Us
+                  </Link>
+                  </div>
+                  </div>
+              </Fade>
+            </div>
+          </div> */}
         </div>
       </section>
     );

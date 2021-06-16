@@ -21,7 +21,7 @@ import Slider from 'react-slick';
                     <p>Annie has ramped up quickly to become an indispensable member of our team. She's fast to respond, learns quickly, and adapts at lightning speed to the needs of our company. She's seamlessly integrated herself into our team and magically taken on lots of responsibilities, which has freed up our time to tackle other priorities that we were never quite able to get to before she came along.</p>
                     <div className="media">
                         <div className="author_img">
-                            <img src={require('../../image/slider2.png')} alt=""/>
+                            <img src={require('../../image/our-coaches-7.jpg')} alt=""/>
                         </div>
                         <div className="media-body">
                             <h6>Sabrina Heng</h6>
@@ -45,7 +45,7 @@ import Slider from 'react-slick';
                     <p>My dedicated VA is one of the hardest working and most responsive individuals I have had the privilege to work with. And the larger AVA team is always available to jump in and support me when required. I don't know how I managed before this, thank you for helping organise my life!</p>
                     <div className="media">
                         <div className="author_img">
-                            <img src={require('../../image/our-coaches-7.jpg')} alt=""/>
+                            <img src={require('../../image/slider2.png')} alt=""/>
                         </div>
                         <div className="media-body">
                             <h6>Sam Harris</h6>

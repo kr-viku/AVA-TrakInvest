@@ -236,8 +236,8 @@ h6 {
 }
 
 .navbar .logo_h img {
-  width: 60px;
-  height: 60px;
+  /* width: 60px;
+  height: 60px; */
   max-width: 100%;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -713,7 +713,7 @@ h6 {
 
 /*================= about_area_two css ==============*/
 .about_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .n_section_title {
@@ -1022,7 +1022,7 @@ h6 {
 /*================== project_count_area css ================*/
 .project_count_area {
   background: #fafafa;
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .project_count_area .counter_item i {
@@ -1058,7 +1058,7 @@ h6 {
     cover;
   position: relative;
   z-index: 1;
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .testimonial_area:before {
@@ -1144,7 +1144,7 @@ h6 {
 }
 
 .team_area {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .team_area .team_item img {
@@ -1203,7 +1203,7 @@ h6 {
 /*----------------------------------------------------*/
 /*=========== clients_logo_area css ============*/
 .clients_logo_area {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .clients_slider {
@@ -1237,7 +1237,7 @@ h6 {
 /*=============== blog_area css =============*/
 .blog_area {
   background: #fafafa;
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .bg_w {
@@ -1350,7 +1350,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============ contact-area css ===============*/
 .contact-area {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .contact-area h4 {
@@ -1695,6 +1695,11 @@ h6 {
   color: #fff;
   display: inline-flex;
 }
+
+.theme_btn_custom{
+  margin-top: 10px !important;
+}
+
 .frelencer_content .theme_btn:before {
   display: none;
 }
@@ -1797,7 +1802,7 @@ h6 {
   margin-bottom: 30px;
 }
 .service_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .service_content .section_title_two {
   margin-bottom: 0px;
@@ -1854,10 +1859,10 @@ h6 {
   border-right: none;
 }
 .skill_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .faq_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .skill_content_two .section_title_two {
   margin-bottom: 15px;
@@ -1879,7 +1884,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 .portfolio_slider_area {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .portfolio_slider_area .section_title_two {
   margin-bottom: 50px;
@@ -1946,7 +1951,7 @@ h6 {
   display: none;
 }
 .testimonial_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .testimonial_slider_info {
   padding-left: 70px;
@@ -1991,7 +1996,7 @@ h6 {
 }
 
 .clients_logo_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -2081,7 +2086,7 @@ h6 {
   margin-right: -60px;
 }
 .blog_area_two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .blog_area_two .blog_post .post_content {
   margin-left: 25px;
@@ -2286,7 +2291,7 @@ h6 {
   margin-top: 25px;
 }
 .contact-area-two {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .contact-area-two .input_form form .form-control:focus {
   border-color: #f26522;
@@ -2515,6 +2520,23 @@ h6 {
   color: #fff;
   border: 1px solid #f26522;
   border-radius: 3px;
+}
+
+.footer-nav-container{
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+}
+.contact-us-container{
+  margin-left: 15px;
+}
+
+.footer-nav-container .nav-link{
+  padding: .5rem 1rem .5rem 0.5rem !important;
+}
+
+.footer-nav-container .nav-link:hover{
+  text-decoration: underline;
 }
 
 /*---------------------------------------------------- */

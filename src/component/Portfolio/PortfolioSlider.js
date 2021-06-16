@@ -47,7 +47,7 @@ class PortfolioSlider extends Component {
                     <Slider {...settings} className="portfolio_slider">
                         <div className="p_item">
                             <div className="portfolio_content">
-                                <a href="./"><img src={require('../../image/new1.jpg')} alt=""/></a>
+                                <a href="./"><img src={require('../../assets/images/FirstPages/microcertificates.png')} alt=""/></a>
                                 <div className="text">
                                     <a href="./"><h4>Top Notch Quality</h4></a>
                                     <a href=".#">We find and train only the best</a>
@@ -56,16 +56,16 @@ class PortfolioSlider extends Component {
                         </div>
                         <div className="p_item">
                             <div className="portfolio_content">
-                                <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
+                                <a href="./"><img src={require('../../assets/images/FirstPages/dig.png')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Organised & Secure</h4></a>
+                                    <a href="./"><h4>Organised &amp; Secure</h4></a>
                                     <a href=".#">Background checks and secure password-sharing tools</a>
                                 </div>
                             </div>
                         </div>
                         <div className="p_item">
                             <div className="portfolio_content">
-                                <a href="./"><img src={require('../../image/portfolio2.jpg')} alt=""/></a>
+                                <a href="./"><img src={require('../../assets/images/FirstPages/accesstalent.png')} alt=""/></a>
                                 <div className="text">
                                     <a href="./"><h4>No contractual commitments</h4></a>
                                     <a href=".#">No long term contracts, billed per usage</a>
@@ -74,7 +74,7 @@ class PortfolioSlider extends Component {
                         </div>
                         <div className="p_item">
                             <div className="portfolio_content">
-                                <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
+                                <a href="./"><img src={require('../../assets/images/FirstPages/Workshops.png')} alt=""/></a>
                                 <div className="text">
                                     <a href="./"><h4>Delegation made easy</h4></a>
                                     <a href=".#">Custom-built tools with in built templates</a>

@@ -412,6 +412,11 @@
     min-width:calc(100vw - 16px);
     margin: 8px auto;
   }
+  .footer-nav-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
   /* .book-btn-container{
     display: flex;
     margin: 0 auto;
