@@ -1649,7 +1649,7 @@ h6 {
 }
 
 .frelencer_banner_area {
-  height: 1115px;    /*950px*/
+  height: 950px;    /*1115px*/
   position: relative;
   z-index: 1;
   display: flex;
@@ -1664,12 +1664,12 @@ h6 {
   z-index: -1;
 }
 .frelencer_content {
-  margin-right: -15px;  /*-55px*/
+  margin-right: -55px;  /*-15px*/
 }
 .frelencer_content h2 {
   font-size: 44px;
   font-weight: 700;
-  line-height: 60px;  /*60px*/
+  line-height: 70px;  /*60px*/
   padding-bottom: 30px;
   letter-spacing: -1.01px;
   font-family: "Montserrat", sans-serif;
@@ -1684,7 +1684,7 @@ h6 {
   background: #f0e6b9;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 15px 20px; /*30px*/
+  padding: 15px 30px; /*20px*/
   display: inline-block;
   font-weight: 600;
   letter-spacing: 3px;
@@ -1752,18 +1752,26 @@ h6 {
 }
 .f_img_five img {
   animation: fadeInUp3 1.5s 0.2s both alternate infinite;
+  width: 55px;
+  height: 83px;
 }
 .f_img_six img {
   animation: fadeInUp3 1.9s 0.3s both alternate-reverse infinite;
+  width: 55px;
+  height: 83px;
 }
 .f_img_seven img {
   animation: fadeInUp3 2.1s 0.2s both alternate infinite;
 }
 .f_img_eight img {
   animation: fadeInUp3 3s 0.5s both alternate-reverse infinite;
+  width: 55px;
+  height: 83px;
 }
 .f_img_nine img {
   animation: fadeInUp3 2.6s 0.4s both alternate-reverse infinite;
+  width: 55px;
+  height: 83px;
 }
 .f_img_six {
   top: 0;
@@ -2272,7 +2280,7 @@ h6 {
 }
 .get_item i:before {
   font-size: 50px;
-  color: rgba(13, 179, 209, 0.5);
+  color: #f26522; /* rgba(13, 179, 209, 0.5); */
 }
 .get_item .media-body h6 {
   font-size: 14px;

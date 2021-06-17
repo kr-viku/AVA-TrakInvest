@@ -89,7 +89,7 @@ class NavbarTwo extends Component {
                     Who We Serve
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     activeClass="active"
@@ -101,7 +101,7 @@ class NavbarTwo extends Component {
                   >
                     Satisfied Customers
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link"

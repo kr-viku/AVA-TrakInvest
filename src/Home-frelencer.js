@@ -13,7 +13,7 @@ import jhonData from './component/jhonData';
 import Faq from './component/Faq/faq';
 export const Homefrelencer = () => (
   <div className="body_wrapper">
-    <DashboardModal />
+    {/* <DashboardModal /> */}
     <NavbarTwo mClass="menu_two" mainlogo="logo_new.png" stickylogo="logo_new.png"/>  
     <FBanner jhonData={jhonData}/>
     <ServiceTwo rowFlex="flex-row-reverse"/>

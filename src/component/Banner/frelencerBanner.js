@@ -34,7 +34,7 @@ class frelencerBanner extends Component {
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={700}>
                   <h4>
-                    <span>Matching you with the top 1% Virtual Assistants so you can focus on achieving more</span>
+                    <span>MATCHING THE TOP 1% VIRTUAL ASSISTANTS WITH TOP BUSINESS LEADERS</span>
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
@@ -78,7 +78,7 @@ class frelencerBanner extends Component {
                   <div className="f_img_five">
                     <img
                       className=""
-                      src={require("../../image/php.png")}
+                      src={require("../../image/home-logo/socail.png")}
                       alt=""
                     />
                   </div>
@@ -86,7 +86,7 @@ class frelencerBanner extends Component {
                 <div className="f_img_six">
                   <img
                     className=""
-                    src={require("../../image/c++.png")}
+                    src={require("../../image/home-logo/email.png")}
                     alt=""
                   />
                 </div>
@@ -100,14 +100,14 @@ class frelencerBanner extends Component {
                 <div className="f_img_eight">
                   <img
                     className=""
-                    src={require("../../image/arrow.png")}
+                    src={require("../../image/home-logo/ecommerce.png")}
                     alt=""
                   />
                 </div>
                 <div className="f_img_nine">
                   <img
                     className=""
-                    src={require("../../image/brakets.png")}
+                    src={require("../../image/home-logo/dataentry.png")}
                     alt=""
                   />
                 </div>
