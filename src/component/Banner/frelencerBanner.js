@@ -29,12 +29,12 @@ class frelencerBanner extends Component {
                     We save your time
                     <br />
                      {/* I'm Martin Solonick Independent{" "} */}
-                    <span>So you can work on what matters!</span>
+                    <span>So you can work on<br></br> what matters!</span>
                   </h2>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={700}>
                   <h4>
-                    <span>MATCHING THE TOP 1% VIRTUAL ASSISTANTS WITH TOP BUSINESS LEADERS</span>
+                    <span>MATCHING THE TOP 1% VIRTUAL ASSISTANTS WITH BUSY PROFESSIONALS</span>
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>

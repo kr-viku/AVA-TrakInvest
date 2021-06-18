@@ -1,5 +1,5 @@
 import React from "react";
-import Modal from "../common/modal/index";
+import Modal from "../Common/modal/index";
 
 class DashboardModal extends React.Component {
   // State to store the status of showing the modal. Defaults to false.

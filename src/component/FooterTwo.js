@@ -30,11 +30,11 @@ class FooterTwo extends Component {
             <div className="col-sm-8 text-right">
               <h6>
                 Email :&nbsp;
-                <a href="amarbedi86@gmail.com">
-                  amarbedi86@gmail.com
+                <a href="amar@ava.work">
+                amar@ava.work
                 </a>
               </h6>
-              <p>© 2015-2016 Ava. All Right Reserved.</p>
+              <p>© 2021 Ava. All Right Reserved.</p>
             </div>
           </div>
           {/* <div className="row">

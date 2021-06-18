@@ -7,7 +7,7 @@ const jhonData = {
   socialLinks: [
     {
       name: "Facebook",
-      url: "http://www.linkedin.com/kr-viku",
+      url: "https://www.facebook.com/AccessibleVA",
       className: "social_facebook",
     },
     {
@@ -15,16 +15,16 @@ const jhonData = {
       url: "http://www.twitter.com/",
       className: "social_twitter",
     },
-    {
-      name: "googleplus",
-      url: "http://www.googleplus.com",
-      className: "social_googleplus",
-    },
-    {
-      name: "pinterest",
-      url: "http://www.pinterest.com",
-      className: "social_pinterest",
-    },
+    // {
+    //   name: "googleplus",
+    //   url: "http://www.googleplus.com",
+    //   className: "social_googleplus",
+    // },
+    // {
+    //   name: "pinterest",
+    //   url: "http://www.pinterest.com",
+    //   className: "social_pinterest",
+    // },
     {
       "name":"instagram",
       "url":"https://www.instagram.com/trakinvest/",
@@ -37,7 +37,7 @@ const jhonData = {
     },
     {
       "name":"linkedin",
-      "url":"https://www.linkedin.com/company/trakinvest/",
+      "url":"https://www.linkedin.com/company/ava-work",
       "className":"social_linkedin"
     }
   ],
@@ -106,7 +106,7 @@ const jhonData = {
         {
           id: 3,
           icon: "icon_mail",
-          text: "amarbedi86@gmail.com",
+          text: "amar@ava.work",
         },
         {
           id: 4,

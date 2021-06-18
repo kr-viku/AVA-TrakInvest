@@ -17,7 +17,7 @@ class ContactTwo extends Component {
               <div className="get_info">
                 <SectionTitleTwo
                   stitle="Get in Touch"
-                  btitle="Talk or Meet with Me"
+                  btitle="Talk or Meet with Us"
                 />
                 <div className="media get_item">
                   <i className="flaticon-phone"></i>
@@ -54,7 +54,7 @@ class ContactTwo extends Component {
                 <div className="input_form">
                   <SectionTitleTwo
                     stitle="Contact us"
-                    btitle="Let me know here Know Here"
+                    btitle="Let us know how we can support you"
                   />
                   <Form />
                 </div>
