@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Reveal } from "react-reveal/";
+import { PopupButton } from '@typeform/embed-react'
 
 class frelencerBanner extends Component {
   render() {
@@ -38,9 +39,9 @@ class frelencerBanner extends Component {
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
-                  <a href="./" className="theme_btn active">
+                <PopupButton id="j7uZzaQO" style={{ fontSize: 20 }} className="theme_btn active">
                    Try a Virtual Assistant now!
-                  </a>
+                  </PopupButton>
                 </Reveal>
               </div>
             </div>
