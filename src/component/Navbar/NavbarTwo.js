@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
+import { Reveal } from "react-reveal/";
+import { PopupButton } from '@typeform/embed-react'
 
 class NavbarTwo extends Component {
   render() {
@@ -38,6 +40,11 @@ class NavbarTwo extends Component {
             >
               <ul className="nav navbar-nav m-auto">
                 <li className="nav-item">
+                    <PopupButton id="RveFk1uj" style={{ fontSize: 14 }} className="custom-button-form">
+                      Find your VA
+                  </PopupButton>
+                </li>
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     activeClass="active"
@@ -49,7 +56,7 @@ class NavbarTwo extends Component {
                   >
                     Home
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link"
@@ -60,7 +67,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    What We Do
+                   Our services
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -115,7 +122,7 @@ class NavbarTwo extends Component {
                     Pricing
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link"
                     activeClass="active"
@@ -127,7 +134,7 @@ class NavbarTwo extends Component {
                   >
                     FAQ's
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link"

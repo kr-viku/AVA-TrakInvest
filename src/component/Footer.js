@@ -9,7 +9,7 @@ class Footer extends Component{
                 <div className="container">
                     <div className="footer-content">
                         <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">
-                            <img src={require('../image/logo2.png')} alt=""/>
+                            <img src={require('../image/company-logo/logo.jpeg')} alt=""/>
                         </Link>
                         <Fade top cascade>
                             <ul className="list_style">
@@ -25,8 +25,8 @@ class Footer extends Component{
                             </ul>
                         </Fade>
                         
-                        <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                        <p>© 2019 Blazethemez - All Rights Reserved</p>
+                        <h6>Email : amar@ava.work</h6>
+                        <p>© 2021 AVA. ALL RIGHT RESERVED.</p>
                     </div>
                 </div>
             </section>

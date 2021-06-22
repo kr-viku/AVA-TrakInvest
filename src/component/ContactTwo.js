@@ -8,7 +8,7 @@ class ContactTwo extends Component {
     // console.log( contactDetails)
     return (
       <section
-        className={`contact-area contact-area-two bg_color`}
+        className={`contact-area contact-area-two `}
         id="contacts"
       >
         <div className="container">
@@ -22,31 +22,31 @@ class ContactTwo extends Component {
                 <div className="media get_item">
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
-                    <h6>Call Me Now</h6>
+                    <h6>Call Us Now</h6>
                     <a href=".#">{contactDetails[1].text}</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-chat"></i>
                   <div className="media-body">
-                    <h6>Contact Me</h6>
+                    <h6>Contact Us</h6>
                     <a href=".#">{contactDetails[2].text}</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-pin"></i>
                   <div className="media-body">
-                    <h6>Get Me Here</h6>
+                    <h6>Location</h6>
                     <p>{contactDetails[0].text}</p>
                   </div>
                 </div>
-                <div className="media get_item">
+                {/* <div className="media get_item">
                   <i className="flaticon-sound"></i>
                   <div className="media-body">
                     <h6>Listen To Me</h6>
                     <a href=".#">{contactDetails[3].text}</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-7 col-md-12">

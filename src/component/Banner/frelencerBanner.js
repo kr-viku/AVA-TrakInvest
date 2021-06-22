@@ -26,7 +26,7 @@ class frelencerBanner extends Component {
             <div className="col-lg-6">
               <div className="frelencer_content">
                 <Reveal effect="fadeInUp" duration={500}>
-                  <h2 className="t_color">
+                  <h2 className="t_color custom_color">
                     We save your time
                     <br />
                      {/* I'm Martin Solonick Independent{" "} */}
@@ -39,8 +39,8 @@ class frelencerBanner extends Component {
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
-                <PopupButton id="j7uZzaQO" style={{ fontSize: 20 }} className="theme_btn active">
-                   Try a Virtual Assistant now!
+                <PopupButton id="RveFk1uj" style={{ fontSize: 20 }} className="theme_btn active">
+                Find your perfect Match!
                   </PopupButton>
                 </Reveal>
               </div>

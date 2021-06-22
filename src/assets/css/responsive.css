@@ -186,6 +186,10 @@
   .clients_logo_area_two .row {
     margin-bottom: -30px;
   }
+  .custom-button-form{
+    color: #040c2c;
+    padding: 0px !important;
+  }
 }
 
 @media (max-width: 767px) {

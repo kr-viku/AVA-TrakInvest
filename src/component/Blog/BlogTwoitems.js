@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Reveal } from "react-reveal/";
+import { PopupButton } from '@typeform/embed-react'
 import "./BlogTwo.css";
 class BlogTwoitems extends Component {
   render() {
@@ -15,29 +16,21 @@ class BlogTwoitems extends Component {
             />
           </div>
           <div className="post_content">
-            {/* <div className="blog-meta">
-                            <span>
-                                <i className="icon_tags_alt"></i>
-                                BY : Tasnim
-                            </span>
-                            <span>
-                                <i className="icon_chat_alt"></i>
-                                <a href="/#">0 comment</a>
-                            </span>
-                        </div> */}
-            <a href="/#">
-              <h2>{bTitle}</h2>
-            </a>
-            <a href="/#" className="read_btn">
-              {btnText}
-            </a>
-            <p>{bHours}</p>
+            <h2>{bTitle}</h2>
+            <div className="post_content_custom">
+              <div className="read_btn">
+                <span className="read-btn-logo">$</span>
+                <span>{btnText}</span>
+                <span className="read-btn-month">/mo</span>
+              </div>
+            </div>
+            <p><b>{bHours}</b> per week</p>
             <p>{bDetails}</p>
             <div className="frelencer_content">
               <Reveal effect="fadeInUp" duration={900}>
-                <a href={path} className="theme_btn active theme_btn_custom">
-                Get started now
-                </a>
+              <PopupButton id="RveFk1uj" style={{ fontSize: 20 }} className="theme_btn active theme_btn_custom">
+                Find your perfect Match!
+               </PopupButton>
               </Reveal>
             </div>
           </div>

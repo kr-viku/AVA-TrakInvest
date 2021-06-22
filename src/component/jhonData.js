@@ -10,11 +10,11 @@ const jhonData = {
       url: "https://www.facebook.com/AccessibleVA",
       className: "social_facebook",
     },
-    {
-      name: "twitter",
-      url: "http://www.twitter.com/",
-      className: "social_twitter",
-    },
+    // {
+    //   name: "twitter",
+    //   url: "http://www.twitter.com/",
+    //   className: "social_twitter",
+    // },
     // {
     //   name: "googleplus",
     //   url: "http://www.googleplus.com",
@@ -25,16 +25,16 @@ const jhonData = {
     //   url: "http://www.pinterest.com",
     //   className: "social_pinterest",
     // },
-    {
-      "name":"instagram",
-      "url":"https://www.instagram.com/trakinvest/",
-      "className":"social_instagram"
-    },
-    {
-        "name":"youtube",
-        "url":"https://www.youtube.com/channel/UCvMjDJLvCn1CtesHVITjjYg/featured",
-        "className":"social_youtube"
-    },
+    // {
+    //   "name":"instagram",
+    //   "url":"https://www.instagram.com/trakinvest/",
+    //   "className":"social_instagram"
+    // },
+    // {
+    //     "name":"youtube",
+    //     "url":"https://www.youtube.com/channel/UCvMjDJLvCn1CtesHVITjjYg/featured",
+    //     "className":"social_youtube"
+    // },
     {
       "name":"linkedin",
       "url":"https://www.linkedin.com/company/ava-work",
