@@ -190,6 +190,10 @@
     color: #040c2c;
     padding: 0px !important;
   }
+  .service-child{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -396,6 +400,14 @@
   .get_item .media-body a,
   .get_item .media-body p {
     font-size: 20px;
+  }
+  .service-child{
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .slider-child{
+    flex-basis: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 450px) {
