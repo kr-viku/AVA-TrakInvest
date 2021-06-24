@@ -5,10 +5,10 @@ import "./ServiceTwo.css";
 class ServiceTwo extends Component {
   render() {
     return (
-      <div className="service_area_two bg_color" id="service">
+      <div className="service_area_two" id="service">
         <div className="container">
           <SectionTitleTwo
-            stitle="Our Services"
+            // stitle="Our Services"
             btitle="Our rockstar Virtual Assistants are experts at"
             tCenter="text-center"
           />

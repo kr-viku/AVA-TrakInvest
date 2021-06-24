@@ -61,7 +61,7 @@ class Faq extends Component {
 
   render() {
     return (
-      <section className="faq_area_two bg_color" id="faq">
+      <section className="faq_area_two" id="faq">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg">

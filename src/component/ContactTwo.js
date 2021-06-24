@@ -8,7 +8,7 @@ class ContactTwo extends Component {
     // console.log( contactDetails)
     return (
       <section
-        className={`contact-area contact-area-two `}
+        className={`contact-area contact-area-two bg_color `}
         id="contacts"
       >
         <div className="container">

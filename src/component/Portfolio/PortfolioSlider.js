@@ -41,11 +41,11 @@ class PortfolioSlider extends Component {
       ],
     };
     return (
-      <section className="portfolio_slider_area bg_color" id="portfolio">
+      <section className="portfolio_slider_area" id="portfolio">
         <div className="container">
           <SectionTitleTwo
             tCenter="text-center"
-            stitle="Why Choose Us?"
+            // stitle="Why Choose Us?"
             btitle="The world’s busiest trust us"
           />
           <div className="service-parent-container">
@@ -53,7 +53,7 @@ class PortfolioSlider extends Component {
               <div className="service-child-wrapper service-child-gap">
                 <div className="service-child-container">
                   <span className="slider-logo-container">
-                    <img src={require('./../../image/service-logo/trust.png')} alt="" />
+                    <img src={require('./../../image/service-logo/015-etiquette.svg')} alt="" />
                   </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
@@ -86,7 +86,7 @@ class PortfolioSlider extends Component {
               <div className="service-child-wrapper service-child-gap">
                 <div className="service-child-container">
                   <span className="slider-logo-container">
-                  <img src={require('./../../image/service-logo/medal.png')} alt="" />
+                  <img src={require('./../../image/service-logo/025-support.svg')} alt="" />
                   </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
@@ -119,7 +119,7 @@ class PortfolioSlider extends Component {
               <div className="service-child-wrapper service-child-gap">
                 <div className="service-child-container">
                   <span className="slider-logo-container">
-                  <img src={require('./../../image/service-logo/cost.png')} alt="" />
+                  <img src={require('./../../image/service-logo/011-dollar.svg')} alt="" />
                   </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}

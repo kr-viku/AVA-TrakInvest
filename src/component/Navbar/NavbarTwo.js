@@ -69,19 +69,6 @@ class NavbarTwo extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Our USP
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
                     to="skill"
                     spy={true}
                     smooth={true}
@@ -89,6 +76,19 @@ class NavbarTwo extends Component {
                     duration={500}
                   >
                     Who We Serve
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Our USP
                   </Link>
                 </li>
                 {/* <li className="nav-item">
