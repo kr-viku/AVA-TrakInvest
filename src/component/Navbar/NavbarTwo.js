@@ -39,11 +39,6 @@ class NavbarTwo extends Component {
               id="navbarSupportedContent"
             >
               <ul className="nav navbar-nav m-auto">
-                <li className="nav-item">
-                    <PopupButton id="RveFk1uj" style={{ fontSize: 14 }} className="custom-button-form">
-                      Find your VA
-                  </PopupButton>
-                </li>
                 {/* <li className="nav-item">
                   <Link
                     className="nav-link"
@@ -147,6 +142,11 @@ class NavbarTwo extends Component {
                   >
                     Contact Us
                   </Link>
+                </li>
+                <li className="nav-item">
+                    <PopupButton id="RveFk1uj" style={{ fontSize: 14 }} className="custom-button-form">
+                      Find your VA
+                  </PopupButton>
                 </li>
               </ul>
             </div>

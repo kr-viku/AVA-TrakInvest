@@ -2596,22 +2596,24 @@ h6 {
   position: relative;
   font: 600 14px/30px "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background: transparent;
+  color: #f26522;
+  background: #fff;
   border: none;
   outline: none;
   transition: all 0.2s linear;
+  border-radius: 3px;
 }
 .custom-button-form:hover{
-  border: 1px solid #fff;
+  box-shadow: rgb(29 24 31 / 15%) 0px 1px 3px;
 }
 .navbar_fixed .navbar .navbar-nav .nav-item .custom-button-form{
+  background:#f26522;
   color: #040c2c;
 }
-.navbar_fixed .navbar .navbar-nav .nav-item .custom-button-form:hover{
+/* .navbar_fixed .navbar .navbar-nav .nav-item .custom-button-form:hover{
   border: 1px solid #040c2c;
-  /* color: #040c2c; */
-}
+  color: #040c2c;
+} */
 .frelencer_content .custom_color{
   font-size: 50px !important;
   color: #f26522 !important;

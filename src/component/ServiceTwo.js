@@ -49,6 +49,7 @@ class ServiceTwo extends Component {
               <div className="service-child-wrapper">
                 <div className="service-child-container">
                   <span className="service-logo-container">
+                  <img src={require('./../image/service-logo/sales.svg')} alt="" />
                   </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
@@ -64,7 +65,9 @@ class ServiceTwo extends Component {
             <div className="service-cell service-child">
               <div className="service-child-wrapper">
                 <div className="service-child-container">
-                  <span className="service-logo-container"></span>
+                  <span className="service-logo-container">
+                  <img src={require('./../image/service-logo/admin.svg')} alt="" />
+                  </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
                   ></span>
@@ -96,7 +99,9 @@ class ServiceTwo extends Component {
             <div className="service-cell service-child">
               <div className="service-child-wrapper">
                 <div className="service-child-container">
-                  <span className="service-logo-container"></span>
+                  <span className="service-logo-container">
+                  <img src={require('./../image/service-logo/customer.svg')} alt="" />
+                  </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
                   ></span>
@@ -111,7 +116,9 @@ class ServiceTwo extends Component {
             <div className="service-cell service-child">
               <div className="service-child-wrapper">
                 <div className="service-child-container">
-                  <span className="service-logo-container"></span>
+                  <span className="service-logo-container">
+                  <img src={require('./../image/service-logo/cart.svg')} alt="" />
+                  </span>
                   <span
                     style={{ display: "block", height: "2em", width: "100%" }}
                   ></span>
