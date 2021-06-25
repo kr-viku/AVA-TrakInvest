@@ -15,7 +15,7 @@ export const Homefrelencer = () => (
   <div className="body_wrapper">
     {/* Uncomment For Modal */}
     {/* <DashboardModal /> */}  
-    <NavbarTwo mClass="menu_two" mainlogo="company-logo/Ava_inverted.svg" stickylogo="Ava_logo.png"/>  
+    <NavbarTwo mClass="menu_two" mainlogo="company-logo/AvaInverted-02.png" stickylogo="Ava_logo.png"/>  
     <FBanner jhonData={jhonData}/>
     <ServiceTwo rowFlex="flex-row-reverse"/>
     <SkillTwo/>

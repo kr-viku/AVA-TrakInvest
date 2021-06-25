@@ -109,6 +109,7 @@ class SkillTwo extends Component {
               />
               <CounterItem
                 col="col-md-6 s_item"
+                CType="$"
                 CText="50"
                 CLogo="K"
                 pdescription="Saved annually by hiring remotely"
