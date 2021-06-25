@@ -71,6 +71,12 @@ class SkillTwo extends Component {
                     alt=""
                   />
                 </span>
+                <span className="company-logo-container mobile-style-show company-img-gap">
+                  <img
+                    src={require("./../../image/company-img/Antler.svg")}
+                    alt=""
+                  />
+                </span>
               </div>
               <div className="company-logo-row skill_content_gap">
                 <span className="company-logo-container">
@@ -86,7 +92,7 @@ class SkillTwo extends Component {
                     alt=""
                   />
                 </span>
-                <span className="company-logo-container">
+                <span className="company-logo-container mobile-style-hidden">
                   <img
                     src={require("./../../image/company-img/Antler.svg")}
                     alt=""

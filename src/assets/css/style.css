@@ -1752,6 +1752,9 @@ h6 {
   background: linear-gradient(to bottom, #ECEBE9, #ECEBE9, #E7E6E4, #E4E2E3)
 
 }
+.mobile-style-show{
+  display: none;
+}
 .frelencer_img {
   position: relative;
 }

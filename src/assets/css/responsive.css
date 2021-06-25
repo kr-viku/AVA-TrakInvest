@@ -88,7 +88,7 @@
     background: #fff;
   }
   .menu_two .navbar-toggler span {
-    background: #f26522;
+    background: #fff;
   }
   .menu_two.navbar .login {
     display: none !important;
@@ -154,7 +154,8 @@
     padding-top: 130px;
   }
   .s_shap {
-    display: none;
+    display: block;
+    left: -240px;
   }
   .frelencer_img {
     margin-top: 30px;
@@ -408,6 +409,30 @@
   .slider-child{
     flex-basis: 100%;
     max-width: 100%;
+  }
+  .s_shap {
+    display: none;
+  }
+  .frelencer_img{
+    display: none;
+  }
+  .frelencer_content{
+    margin-bottom: 30px;
+  }
+  .mobile-style-hidden{
+    display: none;
+  }
+  .company-img-gap{
+    margin: 0px 0px 0px 45px !important;
+  }
+  .mobile-style-show{
+    display: inline-block;
+  }
+  .company-logo-container img {
+    margin-bottom: 12px;
+  }
+  .skill_content_gap{
+    margin-bottom: 15px !important;
   }
 }
 @media (max-width: 450px) {

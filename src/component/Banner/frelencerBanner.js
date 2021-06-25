@@ -17,7 +17,7 @@ class frelencerBanner extends Component {
         <Reveal effect="fadeInRight" duration={500}>
           <img
             className="s_shap"
-            src={require("../../image/home-logo/home1.jpg")}
+            src={require("../../image/home-logo/home2.jpeg")}
             alt=""
           />
         </Reveal>
