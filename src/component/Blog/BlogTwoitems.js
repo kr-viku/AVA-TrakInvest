@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Reveal } from "react-reveal/";
-import { PopupButton } from '@typeform/embed-react'
+import { PopupButton } from "@typeform/embed-react";
 import "./BlogTwo.css";
 class BlogTwoitems extends Component {
   render() {
@@ -24,13 +24,19 @@ class BlogTwoitems extends Component {
                 <span className="read-btn-month">/mo</span>
               </div>
             </div>
-            <p><b>{bHours}</b> per week</p>
+            <p>
+              <b>{bHours}</b> per week
+            </p>
             <p>{bDetails}</p>
             <div className="frelencer_content">
               <Reveal effect="fadeInUp" duration={900}>
-              <PopupButton id="RveFk1uj" style={{ fontSize: 20 }} className="theme_btn active theme_btn_custom">
-                Find your perfect Match!
-               </PopupButton>
+                <a
+                  href="https://forms.zohopublic.com/ava3/form/BasicSignup/formperma/YBdv9ROrgsLJ7T9VbP-j0PTFYpu-8WQQJMlmdylPQR8"
+                  target="_blank"
+                  className="theme_btn active theme_btn_custom"
+                >
+                  Find your perfect Match!
+                </a>
               </Reveal>
             </div>
           </div>

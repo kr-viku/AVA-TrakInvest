@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Reveal } from "react-reveal/";
-import { PopupButton } from '@typeform/embed-react'
+import { PopupButton } from "@typeform/embed-react";
 
 class frelencerBanner extends Component {
   render() {
@@ -26,19 +26,23 @@ class frelencerBanner extends Component {
             <div className="col-lg-6">
               <div className="frelencer_content">
                 <Reveal effect="fadeInUp" duration={500}>
-                  <h2 className="t_color custom_color">
-                    We save your time
-                  </h2>
+                  <h2 className="t_color custom_color">We save your time</h2>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={700}>
                   <h4 className="custom_h4_color">
-                    Match With Top Virtual Assistants<br />so you can work on what matters
+                    Match With Top Virtual Assistants
+                    <br />
+                    so you can work on what matters
                   </h4>
                 </Reveal>
                 <Reveal effect="fadeInUp" duration={900}>
-                <PopupButton id="RveFk1uj" style={{ fontSize: 20 }} className="theme_btn active">
-                Hire A Virtual Assistant!
-                  </PopupButton>
+                  <a
+                    href="https://forms.zohopublic.com/ava3/form/BasicSignup/formperma/YBdv9ROrgsLJ7T9VbP-j0PTFYpu-8WQQJMlmdylPQR8"
+                    target="_blank"
+                    className="theme_btn active"
+                  >
+                    Hire A Virtual Assistant!
+                  </a>
                 </Reveal>
               </div>
             </div>

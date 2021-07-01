@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
 import { Reveal } from "react-reveal/";
-import { PopupButton } from '@typeform/embed-react'
+import { PopupButton } from "@typeform/embed-react";
 
 class NavbarTwo extends Component {
   render() {
@@ -62,7 +62,7 @@ class NavbarTwo extends Component {
                     offset={-86}
                     duration={500}
                   >
-                   Our services
+                    Our services
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -144,9 +144,22 @@ class NavbarTwo extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <PopupButton id="RveFk1uj" style={{ fontSize: 14 }} className="custom-button-form">
-                      Find your VA
-                  </PopupButton>
+                  <a
+                    href="https://forms.zohopublic.com/ava3/form/BasicSignup/formperma/YBdv9ROrgsLJ7T9VbP-j0PTFYpu-8WQQJMlmdylPQR8"
+                    target="_blank"
+                    className="custom-button-form"
+                  >
+                    Find your VA
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScWEQFt8ZsKJrv6I8jvKzDMPRy_b5ukHk2cTlOQ4-p4t9estw/viewform?usp=sf_link"
+                    target="_blank"
+                    className="custom-button-form"
+                  >
+                    Sign up as a VA
+                  </a>
                 </li>
               </ul>
             </div>
